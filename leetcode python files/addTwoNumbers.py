@@ -13,4 +13,4 @@ class Solution:
             cur.next = cur = ListNode(sm)
             l1 = l1 and l1.next
             l2 = l2 and l2.next
-        return dummy.next
+        print(dummy.next)
